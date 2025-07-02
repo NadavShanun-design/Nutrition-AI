@@ -1,0 +1,77 @@
+# Node modules
+node_modules/
+*.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+*.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# Editor directories and files
+*.swp
+*.swo
+*~
+
+# Temporary folders
+tmp/
+temp/
+
+# Server static files
+server/public
+
+# Vite cache
+.vite/
+
+# Build artifacts
+*.tsbuildinfo
+*.tar.gz
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+uploads/
+attached_assets/
+
+# Replit specific
+.replit
+replit.nix
